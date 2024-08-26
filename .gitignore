@@ -49,3 +49,104 @@ package.json
 /man/
 /share/
 /src/
+
+# Ignore the VS Code workspace settings file and local history
+.vscode/
+.history/
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Ignore any unnecessary or automatically generated files
+Thumbs.db
+ehthumbs.db
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore byte-compiled core dump files
+*.pyo
+*.pyd
+*.pyc
+
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+
+# Ignore Odoo specific files
+*.log
+*.swp
+*.swo
+*.egg-info/
+*.pot
+*.po~
+
+# Ignore node_modules for npm packages (if using JS/Node.js)
+node_modules/
+
+# Ignore pip cache and logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore test and coverage results
+htmlcov/
+.tox/
+.nox/
+coverage.*
+.cache
+nosetests.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+test-results.xml
+test-output/
+
+# Ignore distribution/build folders
+dist/
+build/
+*.egg
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg-info/
+MANIFEST
+
+# Ignore IDE-specific files
+.idea/
+.project
+.pydevproject
+*.sublime-project
+*.sublime-workspace
+*.sublime-*
+
+# Ignore database files
+*.sqlite3
+
+# Ignore Odoo backup files
+*.dump
+
+# Ignore Odoo cache and generated files
+odoo/addons/*/__pycache__/
+odoo/addons/*/static/
+odoo/addons/*/migrations/
+
+# Ignore other operating system files
+*.bak
+*.swp
+*.swo
